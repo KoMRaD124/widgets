@@ -97,27 +97,35 @@
   &::-webkit-scrollbar {
     width: 7px;
     cursor: pointer;
-
   }
-  &::-webkit-scrollbar-thumb{
-    background: #2F3342;
+  &::-webkit-scrollbar-thumb {
+    background: #2f3342;
     border-radius: 11px;
-    &:hover{
-        background: #525971;
+    &:hover {
+      background: #525971;
     }
-    
   }
 }
-.iconsArray{
-    display: flex;
-    gap: 29px;
-    padding: 0 40px;
-    padding-top: 14px;
+.iconsArray {
+  display: flex;
+  gap: 29px;
+  padding: 0 40px;
+  padding-top: 14px;
 }
-.icon{
-    cursor: pointer;
+.icon {
+  cursor: pointer;
 }
-.iconActive1 *{
-    fill: red;
-    stroke: white;
+.iconActive1 * {
+  fill: red;
+  stroke: white;
+}
+.textSub {
+  font-family: "TT Firs Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #2f3342;
+  margin-left: 40px;
+  margin-top: 58px;
 }

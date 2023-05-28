@@ -8,7 +8,7 @@ export const Form = () => {
   const [name, setName] = React.useState();
   const [tel, setTel] = React.useState();
   const [step, setStep] = React.useState(1);
-  console.log(tel)
+  
   return (
     <div className={styles.body}>
         {step===1?<FirstStep name={name} tel={tel} SetStep={setStep} setTel={setTel} SetName={setName} />:<></>}

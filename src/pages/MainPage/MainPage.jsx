@@ -12,7 +12,7 @@ export const MainPage = () => {
         </div>
         <div className={styles.qrcode}>
             <img src={QRcode} alt="" />
-            <div className={styles.qrText}>msk-postamat.ru</div>
+            <div className={styles.qrText}>www.mos.ru</div>
         </div>
       </div>
       <div className={styles.formBlock}>

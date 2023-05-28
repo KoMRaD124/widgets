@@ -15,7 +15,7 @@ import { ReactComponent as IconTen } from "../../assets/10.svg";
 import { smileSS } from "../../assets";
 import axios from "axios";
 
-export const SecondStep = ({ SetName, SetStep, name, tel }) => {
+export const SecondStep = ({ SetName, setTel, SetStep, name, tel }) => {
   const [comment, setComment] = React.useState();
 
   const [rating, setRating] = React.useState(null);
@@ -72,8 +72,10 @@ export const SecondStep = ({ SetName, SetStep, name, tel }) => {
     setFiveIsActive(true);
   };
   const fetchData = () => {
-    axios.post("https://msk-postamat.online/api/reviews", data)
-    .then(SetStep(3))
+    axios
+      .post("https://msk-postamat.online/api/reviews", data)
+      .then(SetStep(3), SetName(""), setTel(""))
+      .catch((e) => console.log(e.error));
   };
   return (
     <div className={styles.body}>
@@ -110,7 +112,7 @@ export const SecondStep = ({ SetName, SetStep, name, tel }) => {
           <IconFive className={styles.icon} onClick={() => onClickFive()} />
         )}
       </div>
-
+       <div className={styles.textSub}>Как всё прошло?</div>   
       <div>
         <form
           className={styles.formContainer}
