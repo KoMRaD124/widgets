@@ -7,7 +7,7 @@ import { Succesfull } from '../Succesfull/Succesfull';
 export const Form = () => {
   const [name, setName] = React.useState();
   const [tel, setTel] = React.useState();
-  const [step, setStep] = React.useState(3);
+  const [step, setStep] = React.useState(1);
   console.log(tel)
   return (
     <div className={styles.body}>
