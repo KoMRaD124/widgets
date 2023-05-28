@@ -87,27 +87,27 @@ export const SecondStep = ({ SetName, setTel, SetStep, name, tel }) => {
       </div>
       <div className={styles.iconsArray}>
         {oneIsActive ? (
-          <IconSix className={styles.icon} />
+          <IconSix  />
         ) : (
           <IconOne className={styles.icon} onClick={() => onClickOne()} />
         )}
         {twoIsActive ? (
-          <IconSeven className={styles.icon} />
+          <IconSeven  />
         ) : (
           <IconTwo className={styles.icon} onClick={() => onClickTwo()} />
         )}
         {threeIsActive ? (
-          <IconEight className={styles.icon} />
+          <IconEight />
         ) : (
           <IconThree className={styles.icon} onClick={() => onClickThree()} />
         )}
         {fourIsActive ? (
-          <IconNine className={styles.icon} />
+          <IconNine  />
         ) : (
           <IconFour className={styles.icon} onClick={() => onClickFour()} />
         )}
         {fiveIsActive ? (
-          <IconTen className={styles.icon} />
+          <IconTen  />
         ) : (
           <IconFive className={styles.icon} onClick={() => onClickFive()} />
         )}

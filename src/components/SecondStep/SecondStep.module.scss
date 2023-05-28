@@ -70,7 +70,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 120%;
-  margin-top: 40px;
+  margin-top: 25px;
   color: #ffffff;
   &:hover {
     background: #f06071;
@@ -114,6 +114,9 @@
 }
 .icon {
   cursor: pointer;
+  &:hover{
+    opacity: 0.6;
+  }
 }
 .iconActive1 * {
   fill: red;
