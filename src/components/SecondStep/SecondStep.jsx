@@ -27,7 +27,7 @@ export const SecondStep = ({ SetName, setTel, SetStep, name, tel }) => {
   const data = {
     comment: comment,
     rating: rating,
-    postamat_id: "П-5000",
+    postamat_id: "P-5000",
     user_name: name,
     user_phone: tel,
   };
