@@ -28,6 +28,8 @@
   padding: 35px 45px;
 }
 .qrText {
+  display: flex;
+  justify-content: center;
   font-family: "TT Firs Neue";
   font-style: normal;
   font-weight: 700;
@@ -35,6 +37,7 @@
   line-height: 41px;
   letter-spacing: -0.017em;
   margin-top: 25px;
+ 
 }
 .formBlock{
     margin-top: 211px;
