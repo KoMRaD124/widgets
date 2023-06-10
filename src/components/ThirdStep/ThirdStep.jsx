@@ -16,7 +16,7 @@ import { smileSS } from "../../assets";
 
 export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
   const [click, setClick] = React.useState(false);
-
+  
   
   const [oneIsActive, setOneIsActive] = React.useState(false);
   const [twoIsActive, setTwoIsActive] = React.useState(false);
@@ -26,7 +26,7 @@ export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
 
   const onClickOne = () => {
     setOneIsActive(true);
-    setRating(1);
+   
     setTwoIsActive(false);
     setThreeIsActive(false);
     setFourIsActive(false);
@@ -35,7 +35,7 @@ export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
   };
   const onClickTwo = () => {
     setOneIsActive(false);
-    setRating(2);
+    
     setTwoIsActive(true);
     setThreeIsActive(false);
     setFourIsActive(false);
@@ -53,7 +53,7 @@ export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
   };
   const onClickFour = () => {
     setOneIsActive(false);
-    setRating(4);
+   
     setTwoIsActive(false);
     setThreeIsActive(false);
     setFourIsActive(true);
@@ -62,7 +62,7 @@ export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
   };
   const onClickFive = () => {
     setOneIsActive(false);
-    setRating(5);
+   
     setTwoIsActive(false);
     setThreeIsActive(false);
     setFourIsActive(false);
