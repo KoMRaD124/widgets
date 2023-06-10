@@ -17,7 +17,7 @@ import { smileSS } from "../../assets";
 export const FiveStep = ({ SetName, setTel, SetStep, name, tel }) => {
   const [click, setClick] = React.useState(false);
 
-  const [rating, setRating] = React.useState(null);
+  
   const [oneIsActive, setOneIsActive] = React.useState(false);
   const [twoIsActive, setTwoIsActive] = React.useState(false);
   const [threeIsActive, setThreeIsActive] = React.useState(false);
