@@ -44,7 +44,7 @@ export const ThirdStep = ({ SetName, setTel, SetStep, name, tel }) => {
   };
   const onClickThree = () => {
     setOneIsActive(false);
-    setRating(3);
+    
     setTwoIsActive(false);
     setThreeIsActive(true);
     setFourIsActive(false);
