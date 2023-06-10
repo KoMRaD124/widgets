@@ -74,7 +74,7 @@ export const SecondStep = ({ SetName, setTel, SetStep, name, tel }) => {
   const fetchData = () => {
     axios
       .post("https://msk-postamat.online/api/reviews", data)
-      .then(SetStep(3), SetName(""), setTel(""))
+      .then(SetStep(6), SetName(""), setTel(""))
       .catch((e) => console.log(e.error));
   };
   return (
