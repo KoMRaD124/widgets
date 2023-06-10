@@ -3,7 +3,9 @@ import styles from "./Form.module.scss"
 import { FirstStep } from '../firstStep/firstStep'
 import { SecondStep } from '../SecondStep/SecondStep';
 import { Succesfull } from '../Succesfull/Succesfull';
-
+import { ThirdStep } from '../ThirdStep/ThirdStep';
+import { FourthStep } from '../FourthStep/FourthStep';
+import { FiveStep } from '../FiveStep/FiveStep';
 export const Form = () => {
   const [name, setName] = React.useState();
   const [tel, setTel] = React.useState();
